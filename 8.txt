@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIALER APPLICATION"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number"
+            android:textSize="35dp"
+            android:id="@+id/phonenumberEditText"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DEL"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginStart="70dp"
+            android:id="@+id/btndelete"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="1"
+                android:textSize="25dp"
+                android:onClick="one"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="2"
+                android:textSize="25dp"
+                android:onClick="two"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:text="3"
+                android:textSize="25dp"
+                android:onClick="three"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="4"
+            android:textSize="25dp"
+            android:onClick="four"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="5"
+            android:textSize="25dp"
+            android:onClick="five"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="6"
+            android:textSize="25dp"
+            android:onClick="six"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="7"
+            android:textSize="25dp"
+            android:onClick="seven"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="8"
+            android:textSize="25dp"
+            android:onClick="eight"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="9"
+            android:textSize="25dp"
+            android:onClick="nine"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="*"
+            android:textSize="25dp"
+            android:onClick="star"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="0"
+            android:textSize="25dp"
+            android:onClick="zero"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="#"
+            android:textSize="25dp"
+            android:onClick="hash"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALL"
+            android:textSize="25dp"
+            android:layout_marginEnd="50dp"
+            android:id="@+id/btncall"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textSize="25dp"
+            android:id="@+id/btnsave"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+
+                android:text="SIDDHARTH P K \n2HN20CS044"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+//java
+
+package com.firstapp.dailer;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class MainActivity extends AppCompatActivity {
+    EditText phonenumberEditText;
+    Button btndelete,btncall,btnsave;
+
+    @SuppressLint("MissingInflatedId")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        phonenumberEditText=findViewById(R.id.phonenumberEditText);
+        btndelete=findViewById(R.id.btndelete);
+        btncall=findViewById(R.id.btncall);
+        btnsave=findViewById(R.id.btnsave);
+
+        btndelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                phonenumberEditText.setText("");
+            }
+        });
+        btncall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String phonenumber=phonenumberEditText.getText().toString();
+                Intent intent=new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:"+phonenumber));
+                startActivity(intent);
+            }
+        });
+        btnsave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String phonenumber=phonenumberEditText.getText().toString();
+                Intent intent=new Intent(Intent.ACTION_INSERT);
+                intent.setType(ContactsContract.Contacts.CONTENT_TYPE);
+                intent.putExtra(ContactsContract.Intents.Insert.PHONE,phonenumber);
+                startActivity(intent);
+            }
+        });
+
+
+    }
+    public void InputNumber(View view){
+        Button btn=(Button)view;
+        String digit=btn.getText().toString();
+        String phonenumber=phonenumberEditText.getText().toString();
+        phonenumberEditText.setText(phonenumber+digit);
+    }
+
+    public void one(View view) {
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("1");
+        }
+    }
+
+    public void two(View view) {
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("2");
+        }
+    }
+    public  void three(View view){
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("3");
+        }
+    }
+    public void four(View view){
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("4");
+        }
+    }
+    public void five(View view){
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("5");
+        }
+    }
+    public void six(View view){
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("6");
+        }
+    }
+    public void seven(View view){
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("7");
+        }
+    }
+    public void eight(View view){
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("8");
+        }
+    }
+    public void nine(View view){
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("9");
+        }
+    }
+    public void zero(View view){
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("0");
+        }
+    }
+    public void star(View view){
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("*");
+        }
+    }
+    public void hash(View view){
+        if(phonenumberEditText.hasFocus()){
+            phonenumberEditText.append("#");
+        }
+    }
+}
